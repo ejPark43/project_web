@@ -1,40 +1,19 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link href="example_css.css" rel="stylesheet" type="text/css" />
-</head>
-<body>
-    <div class="container wrapper">
-        <div id="top">
-            <h1>Cover</h1>
-            <ul id="menu">
-            <li class="menuitem" value="Home">
-            </li><li class="menuitem" value="Features">
-            </li><li class="menuitem" value="Contact"></li></ul>
-          </div>
-
-
-    </div>
-    <div id="bottom">
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-      </div>
-</body>
-</html>
-    -->
-
 
 <!doctype html>
 <html lang="en">
   <head>
+
+    <link href="example_css.css" rel="stylesheet" type="text/css" />
+
+   
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.101.0">
-    <title>Cover Template · Bootstrap v4.6</title>
+    <title>Signin Template · Bootstrap v4.6</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.6/examples/cover/">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.6/examples/sign-in/">
 
     
 
@@ -73,41 +52,27 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="cover.css" rel="stylesheet">
+    <link href="signin.css" rel="stylesheet">
   </head>
   <body class="text-center">
     
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <header class="masthead mb-auto">
-    <div class="inner">
-      <h3 class="masthead-brand">Cover</h3>
-      <nav class="nav nav-masthead justify-content-center">
-        <a class="nav-link active" href="#">Home</a>
-        <a class="nav-link" href="#">Features</a>
-        <a class="nav-link" href="#">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <main role="main" class="inner cover">
-    <h1 class="cover-heading">Cover your page.</h1>
-    <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-    <p class="lead">
-      <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
-    </p>
-  </main>
-
-  <footer class="mastfoot mt-auto">
-    <div class="inner">
-      <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-    </div>
-  </footer>
-</div>
+<form class="form-signin">
+  <img class="mb-4" src="/docs/4.6/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+  <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+  <label for="inputEmail" class="sr-only">Email address</label>
+  <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+  <label for="inputPassword" class="sr-only">Password</label>
+  <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+  <div class="checkbox mb-3">
+    <label>
+      <input type="checkbox" value="remember-me"> Remember me
+    </label>
+  </div>
+  <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+  <p class="mt-5 mb-3 text-muted">&copy; 2017-2022</p>
+</form>
 
 
     
   </body>
 </html>
-
-
-   
