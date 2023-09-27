@@ -45,7 +45,7 @@ top, sidebar, bottom, menuitem{
 }
 
 #bottom {
-    margin-top: 200px;
+    
     border: 1px solid #d4d4d4;
     background-color: #f1f1f1;
     text-align: center;
@@ -87,7 +87,7 @@ a:hover {
 }
 
 
-/* @media (max-width: 800px) {
+@media (max-width: 800px) {
     #sidebar {
         width: auto;
         position: relative;
@@ -96,9 +96,9 @@ a:hover {
         margin-right: 0;
     }    
        
-} */
+}
 
-/* @media (max-width: 600px) {
+@media (max-width: 600px) {
     #menubar {
         width: auto;
         float: none;
@@ -106,4 +106,4 @@ a:hover {
     #main {
         margin: 0;
     }    
-} */
+}
