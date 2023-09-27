@@ -7,6 +7,7 @@
 .container{
     xmin-width: 900px;
 }
+
 .wrapper {
     position: relative;
     overflow: auto;
@@ -30,7 +31,7 @@ top, sidebar, bottom, menuitem{
 
 #main {
     padding: 10px;
-    margin: 210px;
+    margin:0 210px;
 }
 
 #sidebar {
