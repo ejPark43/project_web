@@ -4,15 +4,15 @@
     margin: 20px;
     line-height: 26px;
 }
-container wrapper{
+.container{
     xmin-width: 900px;
 }
-wrapper {
+.wrapper {
     position: relative;
     overflow: auto;
 }
 top, sidebar, bottom, menuitem{
-    border-radius : 4px;
+    border-radius : 8px;
     margin: 4px;
 }
 
@@ -30,7 +30,7 @@ top, sidebar, bottom, menuitem{
 
 #main {
     padding: 10px;
-    margin: 0 210px;
+    margin: 210px;
 }
 
 #sidebar {
@@ -45,6 +45,7 @@ top, sidebar, bottom, menuitem{
 }
 
 #bottom {
+    margin-top: 200px;
     border: 1px solid #d4d4d4;
     background-color: #f1f1f1;
     text-align: center;
